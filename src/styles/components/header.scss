@@ -1,0 +1,147 @@
+// Header
+
+.header {
+    background-color: var(--medium);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    padding-bottom: 2rem;
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+    @media (min-width: 1200px) {
+      justify-content: space-between;
+      padding-left: 10rem;
+      padding-right: 10rem;     
+    }
+}
+.github-icon {
+  width: 80px; 
+  height: 80px;
+  @media (min-width: 768px) {
+    width: 100px; 
+    height: 100px
+  }
+  
+}
+.form-user {
+  display: flex;  
+  height: 4.5rem;
+  &__input {
+    width: 25rem;
+    border-radius: 0.7rem;
+    border-style: none;
+    border: 0.2rem black solid;
+    font-size: 2rem;
+    color: var(--dark);
+    @media (min-width: 768px) {
+      width: 35rem;       
+    }   
+  }
+  &__btn {
+    width: 8rem;
+    margin-left: 2rem;
+    border-radius: 0.7rem;
+    border-style: none;
+    border: 0.2rem black solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--dark);
+  }
+}
+
+// Results
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.7rem;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5rem;
+  }
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  &__image {
+    width: 150px;
+    border-radius: 0.7rem;
+  }
+  &__dates {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    line-height: 2rem;
+    &--name {
+      color: var(--dark);
+      font-size: 1.7rem;
+      font-weight: bold;
+      @media (min-width: 768px) {
+        font-size: 2rem;
+      }      
+    }
+    &--login {
+      color: var(--dark);
+      font-size: 1.5rem;
+      font-weight: 200;
+    }
+    &--follow {
+      font-size: 1.3rem;
+    }
+  }
+}
+.span {
+  font-weight: bold;
+}
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  justify-content: left;
+  @media (min-width: 768px) {
+    width: 70%;
+
+  }
+}
+.repo-input {
+  height: 3rem;
+  width: 60%;
+  border-radius: 0.5rem;
+  border-color: var(--dark);
+  font-size: 1.5rem;
+  color: var(--dark);
+}
+.text-repos {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.repos {
+  margin-top: 2rem;
+}
+.repos-list {
+  list-style: none;
+  line-height: 2rem;
+  &__name {
+    font-size: 2rem;
+    color: var(--dark);
+    @media (min-width: 768px) {
+      font-size: 2.2rem;
+    }
+  }
+  &__description {
+
+  }
+  &__language {
+    font-size: 1.4rem;
+  }
+  &__update {
+    font-size: 1.2rem;
+  }
+}
