@@ -1,22 +1,19 @@
-const callToApi = () => {
-  return fetch(`https://api.github.com/users/${username}`)
+const getApiData = () => {
+  return fetch(`https://api.github.com/users/Begodpo/repos`)
     .then((response) => response.json())
     .then((data) => {
-      const cleanData = data.map((user) => {
+      const cleanData = data.map((repo) => {
         return {
-          image: user.avatar_url,
-          name: user.name,
-          login: user.login,
-          id: user.id,
-          followers: user.followers,
-          following: user.following,
-          email: user.email,
-          repos: user.public_repos,
+          id: repo.id,
+          name: repo.name,
+          avatar: repo.owner.avatar_url,
+          description: repo.description,
+          language: repo.language,
+          updated: repo.updated_at,
         };
       });
-
       return cleanData;
     });
 };
 
-export default callToApi;
+export default getApiData;
