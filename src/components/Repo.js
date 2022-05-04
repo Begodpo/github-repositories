@@ -5,8 +5,8 @@ function Repo(props) {
       <p className="repos-list__description">{props.repo.description}</p>
       <p className="repos-list__language">{props.repo.language}</p>
       <p className="repos-list__update">Updated {props.repo.updated}</p>
+      <p>{props.userName}</p>
     </>
   );
 }
-
 export default Repo;

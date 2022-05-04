@@ -1,0 +1,48 @@
+.repo-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;  
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+    justify-content: left;
+    @media (min-width: 768px) {
+      width: 70%;
+      margin-top: 0.2rem;
+    }
+  }
+  .repo-input {
+    height: 3rem;
+    width: 60%;
+    border-radius: 0.5rem;
+    border-color: var(--dark);
+    font-size: 1.5rem;
+    color: var(--dark);
+  }
+  .text-repos {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .repos {
+    margin-top: 2rem;
+  }
+  .repos-list {
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    &__name {
+      font-size: 2rem;
+      color: var(--dark);
+      @media (min-width: 768px) {
+        font-size: 2.2rem;
+      }
+    }
+    &__description {
+  
+    }
+    &__language {
+      font-size: 1.4rem;
+    }
+    &__update {
+      font-size: 1.2rem;
+    }
+  }

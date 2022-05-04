@@ -7,6 +7,7 @@ const getApiData = () => {
           id: repo.id,
           name: repo.name,
           avatar: repo.owner.avatar_url,
+          userName: repo.owner.login,
           description: repo.description,
           language: repo.language,
           updated: repo.updated_at,

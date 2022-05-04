@@ -1,3 +1,4 @@
+import "../styles/components/repos.scss";
 import FilterName from "./FilterName";
 
 const Filters = (props) => {

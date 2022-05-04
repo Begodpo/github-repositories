@@ -1,0 +1,45 @@
+.results-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 5rem;
+    }
+  }
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    &__image {
+      width: 150px;
+      border-radius: 0.7rem;
+    }
+    &__dates {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+      line-height: 2rem;
+      &--name {
+        color: var(--dark);
+        font-size: 1.7rem;
+        font-weight: bold;
+        @media (min-width: 768px) {
+          font-size: 2rem;
+        }      
+      }
+      &--login {
+        color: var(--dark);
+        font-size: 1.5rem;
+        font-weight: 200;
+      }
+      &--follow {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  .span {
+    font-weight: bold;
+  }
+  
