@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import getApiData from "./services/api";
 import "../src/styles/App.scss";
 import Header from "./components/Header";

@@ -13,6 +13,7 @@ const getApiData = () => {
           updated: repo.updated_at,
         };
       });
+
       return cleanData;
     });
 };
