@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.44687cde.css",
+    "main.js": "./static/js/main.c3979623.js",
+    "static/js/787.20a932c6.chunk.js": "./static/js/787.20a932c6.chunk.js",
+    "static/media/foto-bego.jpg": "./static/media/foto-bego.d3695e859446ea60eaed.jpg",
+    "index.html": "./index.html",
+    "main.44687cde.css.map": "./static/css/main.44687cde.css.map",
+    "main.c3979623.js.map": "./static/js/main.c3979623.js.map",
+    "787.20a932c6.chunk.js.map": "./static/js/787.20a932c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44687cde.css",
+    "static/js/main.c3979623.js"
+  ]
+}
