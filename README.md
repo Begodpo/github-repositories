@@ -10,7 +10,7 @@ You can run **npm start** to bring up the project at http://localhost:300 and vi
 
 You can also view it at:
 
-[Netlify](github-repos-with-filter.netlify.app)
+[Netlify](https://github-repositories-with-filter.netlify.app/)
 
 ###Future improvements
 
